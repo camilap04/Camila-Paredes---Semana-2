@@ -1,0 +1,43 @@
+body{
+
+    background-color: white;
+}
+
+
+#nina-firma {
+    width: 627px;
+    height: 177px;
+    position: absolute;
+    top: 388px;
+    left: 720px;
+}
+
+#linea {
+    width: 585;
+    height: 0px;
+    position: absolute;
+    top: 614px;
+    left: 744px;
+    border: 1px solid #000000;
+
+}
+
+#black-classical-music {
+width: 585px;
+height: 23px;
+left: 800px;
+top: 633px;
+position: absolute;
+
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #1E1E1E;
+
+}
