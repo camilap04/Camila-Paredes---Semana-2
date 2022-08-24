@@ -13,12 +13,13 @@ body{
 }
 
 #linea {
-    width: 585;
+    width: 480px;
     height: 0px;
     position: absolute;
-    top: 614px;
-    left: 744px;
+    left: 808px;
+    top: 635px;
     border: 1px solid #000000;
+    
 
 }
 
@@ -41,3 +42,84 @@ text-transform: uppercase;
 color: #1E1E1E;
 
 }
+
+#te-dire {
+
+width: 652px;
+height: 122px;
+
+position:absolute;
+left: 78px;
+top: 1119px;
+
+font-family: 'FS Ostro Display VF';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.15em;
+
+color: #1E1E1E;
+}
+
+#para-mi {
+
+    width: 351px;
+    height: 47px;
+
+    position: absolute;
+    left: 111px;
+    top: 1166px;
+
+font-family: 'FS Ostro Display VF';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.15em;
+
+color: #1E1E1E;
+
+}
+
+#no-tener-miedo {
+
+width: 351px;
+height: 47px;
+
+position: absolute;
+left: 238px;
+top: 1227px;
+
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+letter-spacing: 0.15em;
+text-decoration-line: underline;
+
+color: #1E1E1E;
+
+
+}
+
+.biografia {
+
+display: table-cell;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
