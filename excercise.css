@@ -107,9 +107,10 @@ color: #1E1E1E;
 }
 
 .biografia {
+width: 100%;
 
-display: table-cell;
-
+display: flex;
+flex-direction: column;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -123,3 +124,91 @@ color: #000000;
 
 }
 
+.biografia-articulo{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+ 
+
+.parrafo2-biografia{
+    margin-left: 2em;
+
+  
+}
+
+.segunda-section{
+
+    position:relative;
+    margin-top: -250px;
+        
+}
+
+#el-deber-de-un-artista {
+
+position:absolute;
+top: 30%;
+text-align: center;
+width: 50%;
+
+
+
+
+  font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 500;
+font-size: 55px;
+line-height: 73px;
+letter-spacing: 0.05em;
+
+color: #000000;
+  
+
+}
+
+.swipe{
+
+    display: none;
+}
+
+#fondo-imagenes{
+
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+}
+
+.imagenes-carrusel{
+
+    
+    position: absolute;
+    top: 14%;
+   
+
+
+}
+
+.botones-carrusel{
+
+    position: relative;
+   
+}
+
+#boton-derecho{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 47%;
+    left: -10em;
+}
+
+#boton-izquierdo {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 47%;
+    right: 122em;
+}
