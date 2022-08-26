@@ -1,3 +1,8 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
 body{
 
     background-color: white;
@@ -211,4 +216,100 @@ color: #000000;
     position: absolute;
     top: 47%;
     right: 122em;
+}
+
+#penultimo-section {
+    background-color: #000000;
+    background-image:url("./Imagenes/fondo penultimo section.png");
+    
+    position: relative;
+}
+
+
+.feeling-good-imagen{
+
+    position:absolute;
+    top: 5%;
+    z-index: 1;
+  
+}
+
+#informacion-penultimo{
+
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo-feeling-good{
+    
+    z-index: 2;
+
+}
+
+.parrafo-feeling-good{
+
+    z-index: 2;
+}
+
+.blur-feeling-good{
+position:absolute;
+top: 6%;
+right: 10%;
+
+
+}
+
+.titulo-feeling-good{
+width: 461px;
+height: 107px;
+
+font-family: 'Zeronero';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+
+position:absolute;
+left: 57%;
+top: 8%;
+
+}
+
+.parrafo-feeling-good{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #BABABA;
+    
+}
+
+#ultima-section{
+
+
+}
+
+.redes-nina{
+
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.youtube{
+
+    position:absolute;
+    
 }
